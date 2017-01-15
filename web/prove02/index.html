@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brad Kellogg</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body class="body">
+    <div class="container">
+	<a id="assignLink" href="assignments.html">Assignments Page</a>
+	<h1 class="text-center">An Intro to Brad Kellogg</h1>
+	<div id="launchButton" type="button" data-toggle="modal" data-target="#personInfo">BEGIN</div>
+    </div>
+    <div id="personInfo" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+          	<div class="modal-body">
+		    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		    <h2 class="modal-title">A Few Things About Me</h2>
+		    <ul>
+			<li>I love to play sports. My favorites are basketball, ultimate frisbee, and golf.</li>
+			<li>My hobbies consist of archery, all kinds of games, and car projects.</li>
+			<li>I was married to my wife in April 2015 and we just had our first baby in November.</li>
+            	    	<li>I am fascinated with fast cars. It's always been a dream of mine to own a car with over 500 horsepower. </li>
+		    </ul>
+            	    <button id="close" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          	</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
