@@ -1,6 +1,5 @@
 <?php
 session_start();
-$_SESSION["voted"] = false;
 if ($_SESSION["voted"] == true) {
     header("Location: https://damp-chamber-22241.herokuapp.com/prove03/results.php");
     exit();
