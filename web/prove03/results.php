@@ -34,10 +34,10 @@ foreach($results as $x => $x_value) {
 fclose($file);
 ?>
     <div class="container">
-        <a href="questions.html" style="float: right; padding: 4px">Survey Page</a>
-        <table>
+        <a href="questions.php" style="float: right; padding: 4px">Survey Page</a>
+        <table style="margin: auto">
             <tr>
-                <th style="text-align: center;" colspan="6">Results</th>
+                <th style="text-align: center" colspan="6">Results</th>
             </tr>
             <tr>
                 <th>Question #</th>
