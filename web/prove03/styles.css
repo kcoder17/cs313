@@ -1,0 +1,14 @@
+.radio {
+    margin-left: 20px;
+}
+
+.text-input {
+    padding-left: 5px;
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+table, th, td {
+    border: solid 1px black;
+    padding: 4px;
+}
