@@ -1,0 +1,14 @@
+.container {
+    background-color: #f7f7f7;
+    width: 75%;
+}
+
+.select {
+    min-width: 130px;
+    padding: 3px;
+}
+
+body h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
